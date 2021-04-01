@@ -22,14 +22,14 @@ const app = express();
 app.use(express.json()); // middleware
 app.use(cors());
 
-app.get('/', (req, res) => { res.send('success') })
+app.get('/', (req, res) => { res.send('success') });
 
 // Currying callback functions:
-app.post('/signin', signin.handleSignin(db, bcrypt))
-app.post('/register', register.handleRegister(db, bcrypt))
-app.get('/profile/:id', profile.handleProfileGet(db))
-app.put('/image', image.handleImage(db))
-app.post('/imageUrl', image.handleApiCall)
+app.post('/signin', signin.handleSignin(db, bcrypt));
+app.post('/register', register.handleRegister(db, bcrypt));
+app.get('/profile/:id', profile.handleProfileGet(db));
+app.put('/image', image.handleImage(db));
+app.post('/imageUrl', image.handleApiCall);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
