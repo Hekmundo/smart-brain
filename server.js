@@ -17,6 +17,7 @@ const db = knex({
     }
   }
 });
+console.log(db);
 
 const app = express();
 app.use(express.json()); // middleware
