@@ -1,6 +1,6 @@
 # Smart Brain
 
-A fun React app that allows users to sign up and begin detecting faces in the images they provide. Smart Brain will track the number of entries from a user and store their credentials in a [PostGreSQL](https://www.postgresql.org/) database. AI face detection is provided and processed by [Clarifai API](https://www.clarifai.com/models/ai-face-detection).
+A fun React app that allows users to sign up and begin detecting faces in the images they provide. Smart Brain will track the number of entries from a user and store their credentials in a database. AI face detection is provided and processed by [Clarifai API](https://www.clarifai.com/models/ai-face-detection).
 
 <br />
 
