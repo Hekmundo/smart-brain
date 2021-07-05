@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  min-height: 100vh;
 }
 
 .center {
@@ -14,11 +15,4 @@
   bottom: 0;
   left: 0;
   z-index: -1;
-}
-
-.favicon-credit {
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 10px;
 }
