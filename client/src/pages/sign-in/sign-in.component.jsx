@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
+import { useHistory } from 'react-router';
 import { signInStart } from '../../redux/user/user.actions';
 
-const SignIn = ({ history }) => {
+const SignIn = () => {
+  const history = useHistory();
   const dispatch = useDispatch();
   const [userCredentials, setUserCredentials] = useState({
     email: '',
