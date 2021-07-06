@@ -10,7 +10,7 @@ import {
   resetFaceRecognition,
 } from './face-recognition.actions';
 import { getFaceBoxes } from './face-recognition.utils';
-import { apiFetch } from '../api/api.utils';
+import { apiFetch } from '../api.utils';
 
 function* submitImage({ payload }) {
   const imageUrl = payload;

@@ -10,7 +10,7 @@ import {
   updateEntriesFailure,
 } from './user.actions';
 import { selectCurrentUserId } from './user.selectors';
-import { apiFetch } from '../api/api.utils';
+import { apiFetch } from '../api.utils';
 
 function* signIn({ payload: { email, password } }) {
   try {
