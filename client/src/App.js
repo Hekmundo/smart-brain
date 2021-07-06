@@ -17,6 +17,9 @@ const particlesOptions = {
         enable: true,
       },
     },
+    move: {
+      speed: 2,
+    },
   },
 };
 
