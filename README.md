@@ -13,6 +13,7 @@ A fun React app that allows users to sign up and begin detecting faces in the im
 - [React.js](https://reactjs.org/) (UI library allowing the creation of resusable components while providing fast DOM manipulation)
 - [Redux](https://redux.js.org/) (state manager that holds all state in a centralised store)
 - [Redux-Saga](https://redux-saga.js.org/) (to handle asynchronous actions and and side effects)
+- [Redux Persist](https://www.npmjs.com/package/redux-persist) (to implement user sessions by storing user reducer state in local storage)
 - [Reselect](https://github.com/reduxjs/reselect) (to create memoized state selectors)
 - [React Router DOM](https://reactrouter.com/) (to simplify page routing and page redirects)
 - [Particles.js](https://vincentgarreau.com/particles.js/) (for background animations)
